@@ -6,6 +6,7 @@
 
         <q-toolbar-title> Shopping App </q-toolbar-title>
 
+        <q-btn flat to="/products" icon="inventory_2" label="Productos" no-caps />
         <q-btn flat to="/auth" icon="login" label="Login" no-caps />
       </q-toolbar>
     </q-header>

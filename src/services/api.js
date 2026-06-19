@@ -40,3 +40,11 @@ export function register(userData) {
     body: JSON.stringify(userData),
   })
 }
+
+export function getCategories() {
+  return request('/category')
+}
+
+export function getProducts() {
+  return request('/product')
+}
